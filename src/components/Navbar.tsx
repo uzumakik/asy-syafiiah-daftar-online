@@ -1,3 +1,4 @@
+
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
@@ -14,7 +15,7 @@ const Navbar = () => {
             <Link to="/" className="flex-shrink-0 flex items-center">
               <img
                 className="h-12 w-auto mr-2"
-                src="/lovable-uploads/9a5725dd-a19c-495c-a779-f00914e3d7f9.png"
+                src="/lovable-uploads/8dbc0674-7a08-468d-868e-9d80ea496338.png"
                 alt="SDIT Asy-Syafiiah Logo"
               />
               <span className="text-xl font-bold text-school-primary">SDIT Asy-Syafiiah</span>
