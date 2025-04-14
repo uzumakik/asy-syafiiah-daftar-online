@@ -1,8 +1,8 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from "@/components/ui/button";
 import { Menu, X } from 'lucide-react';
+import { BookOpen } from 'lucide-react';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -13,12 +13,11 @@ const Navbar = () => {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <img
-                className="h-10 w-auto"
-                src="https://via.placeholder.com/50x50?text=SDIT"
-                alt="SDIT Asy-Syafiiah Logo"
+              <BookOpen 
+                className="h-10 w-10 text-school-primary mr-2" 
+                strokeWidth={2} 
               />
-              <span className="ml-2 text-xl font-bold text-school-primary">SDIT Asy-Syafiiah</span>
+              <span className="text-xl font-bold text-school-primary">SDIT Asy-Syafiiah</span>
             </Link>
           </div>
           
